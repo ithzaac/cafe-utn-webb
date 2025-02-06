@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Café UTN</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Café UTN</h1>
+        <nav>
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#productos">Productos</a></li>
+                <li><a href="#nosotros">Nosotros</a></li>
+                <li><a href="#contacto">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <section id="inicio">
+        <h2>Bienvenido a Café UTN</h2>
+        <p>Disfruta de nuestros productos artesanales elaborados con el mejor café de la Universidad Técnica del Norte.</p>
+    </section>
+    
+    <section id="productos">
+        <h2>Nuestros Productos</h2>
+        <p><strong>Licor seco de café:</strong> Un licor fuerte con un intenso aroma y sabor a café.</p>
+        <p><strong>Licor crema de café:</strong> Una mezcla cremosa y suave con el toque distintivo del café.</p>
+        <p><strong>Mistelas de café:</strong> Un dulce licor artesanal ideal para compartir.</p>
+        <p><strong>Café molido:</strong> El mejor café molido con un aroma inigualable.</p>
+    </section>
+    
+    <section id="nosotros">
+        <h2>Sobre Nosotros</h2>
+        <p>Nuestro café es producido con los más altos estándares de calidad en la Universidad Técnica del Norte.</p>
+    </section>
+    
+    <section id="contacto">
+        <h2>Contacto</h2>
+        <p>Déjanos tu mensaje y te responderemos lo antes posible.</p>
+        <form>
+            <input type="text" placeholder="Nombre" required><br><br>
+            <input type="email" placeholder="Correo Electrónico" required><br><br>
+            <textarea placeholder="Mensaje" required></textarea><br><br>
+            <button type="submit">Enviar</button>
+        </form>
+    </section>
+</body>
+</html>
